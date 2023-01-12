@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Service from './components/Service';
 import Update from './components/Update';
+import Emailcard from './components/Emailcard';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <About/>
       <Service/>
       <Update/>
+      <Emailcard/>
+      <Footer/>
     </div>
   );
 }
