@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer() {
   return (
 <div className='md:mx-56'>
-      <footer class="text-center lg:text-left text-gray-100 ">
-  <div class="mx-6 py-10 text-center md:text-left ">
+      <footer class="md:text-center text-left  text-gray-100 ">
+  <div class="mx-6 py-10 text-left md:text-center ">
     <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div class="">
         <h6 class="
@@ -13,8 +13,9 @@ export default function Footer() {
             mb-4
             flex
             items-center
-            justify-center
-            md:justify-start
+            md:justify-center
+            justify-start
+            justify-start
           ">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cubes"
             class="w-4 mr-3" role="img" xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +31,7 @@ export default function Footer() {
         </p>
       </div>
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start ">
+        <h6 class="uppercase font-semibold mb-4 flex md:justify-center justify-start ">
           Products
         </h6>
         <p class="mb-4">
@@ -47,7 +48,7 @@ export default function Footer() {
         </p>
       </div>
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        <h6 class="uppercase font-semibold mb-4 flex md:justify-center  justify-start">
           Useful links
         </h6>
         <p class="mb-4">
@@ -64,10 +65,10 @@ export default function Footer() {
         </p>
       </div>
       <div class="">
-        <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+        <h6 class="uppercase font-semibold mb-4 flex justify-start">
           Contact
         </h6>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        <p class="flex items-center justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
             <path fill="currentColor"
@@ -76,7 +77,7 @@ export default function Footer() {
           </svg>
           New York, NY 10012, US
         </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        <p class="flex items-center justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -86,7 +87,7 @@ export default function Footer() {
           </svg>
           info@example.com
         </p>
-        <p class="flex items-center justify-center md:justify-start mb-4">
+        <p class="flex items-center justify-start mb-4">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
@@ -96,7 +97,7 @@ export default function Footer() {
           </svg>
           + 01 234 567 88
         </p>
-        <p class="flex items-center justify-center md:justify-start">
+        <p class="flex items-center justify-start">
           <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="print"
             class="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
