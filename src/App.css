@@ -9,3 +9,6 @@ body{
 .get-btn:hover{
   border-color: #81824c;
 }
+.info-card{
+  background:linear-gradient(325deg,#050a36 88%,#f9fe73 12%);
+}
