@@ -11,7 +11,7 @@ export default function Hero() {
       Some quick example and make up the bulk of the card's
       content.e text to build on the card title text to build on the card titl
     </p>
-    <button style={{background:"#f9fe73"}} className="h-min w-fit text-grey-100 gap-x-2 font-bold md:w-fit text-lg px-10 py-3 rounded-3xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-hotpink" type="button">LearnMore </button>
+    <button style={{background:"#f9fe73"}} className="e-btn h-min w-fit text-grey-100 gap-x-2 font-bold md:w-fit text-lg px-10 py-3 rounded-3xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-hotpink" type="button">LearnMore </button>
   </div>
     <img src={web33} alt="" className='w-min'/>
     <div className="grid place-items-center content-center w-full h-24 " style={{background:"#f9fe73"}} >

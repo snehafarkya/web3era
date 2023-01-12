@@ -15,10 +15,10 @@ export default function Navbar() {
         </a>
         {/* <!-- Nav Links --> */}
         <ul className="hidden md:flex px-5 mx-auto font-semibold font-heading space-x-12">
-          <li><a className="hover:text-gray-100 font-bold" href="#">Home</a></li>
-          <li><a className="hover:text-gray-100 font-bold" href="#">Build</a></li>
-          <li><a className="hover:text-gray-100 font-bold" href="#">Community</a></li>
-          <li><a className="hover:text-gray-100 font-bold" href="#">Wiki</a></li>
+          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Home</a></li>
+          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Build</a></li>
+          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Community</a></li>
+          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Wiki</a></li>
         </ul>
         {/* <!-- Header Icons --> */}
         <div className="hidden xl:flex space-x-5 flex-row">
