@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Service from './Service'
+
 export default function Navbar() {
   return (
     <div>
@@ -16,7 +18,7 @@ export default function Navbar() {
         {/* <!-- Nav Links --> */}
         <ul className="hidden md:flex px-5 mx-auto font-semibold font-heading space-x-12">
           <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Home</a></li>
-          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Build</a></li>
+          <li><a className="hover:text-gray-100 font-bold text-gray-400" href="/service">Build</a></li>
           <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Community</a></li>
           <li><a className="hover:text-gray-100 font-bold text-gray-400" href="#">Wiki</a></li>
         </ul>
