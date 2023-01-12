@@ -5,12 +5,12 @@ import about from './assets/about.png'
 export default function About() {
   return (
     <div className='flex flex-col block justify-center items-center mt-20 mb-20 max-w-3xl m-auto'>
-        <h1 className='text-white font-medium text-7xl flex mb-10'>Web3 done simple!</h1>
+        <h1 className='text-white font-medium md:text-5xl text-2xl flex mb-10'>Web3 done simple!</h1>
         <p className='text-gray-200 mb-20 max-w-sm text-center '>
           Focus on the roduct not blockchain complexity and stick to your standard workflow
         </p>
         {/* card section */}
-    <div className="flex flex-row justify-center items-center gap-x-20 ">
+    <div className="md:flex flex-row justify-center items-center gap-x-20 grid grid-cols-1 gap-y-20">
       {/* cards */}
     <div className="card-sec flex flex-col justify-center ">
       {/* card1 */}
@@ -39,7 +39,7 @@ export default function About() {
       </div>
       </div>
       {/* card img */}
-      <div className="cardimg flex">
+      <div className="cardimg flex justify-center">
         <img src={about} alt="" />
       </div>
       </div>
