@@ -39,5 +39,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type='text/javascript'>
+      function myFun() {
+        var x = document.getElementById("navhide");
+        if (x.className === "navhide") {
+          x.className += " responsive";
+        } else {
+          x.className = "navhide";
+        }
+      }
+      </script>
   </body>
 </html>
