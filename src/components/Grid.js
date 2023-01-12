@@ -3,8 +3,8 @@ import arrow from './assets/star.webp'
 
 export default function Grid() {
   return (
-    <div className="w-fit m-auto">
-    <div className='grid grid-cols-2 gap-4 place-items-center content-center '>
+    <div className="md:w-fit m-auto">
+    <div className='grid md:grid-cols-2 gap-4 place-items-center content-center grid-cols-1 '>
       {/* #050a36 */}
       {/* card1 */}
       <div class="info-card flex justify-center gap-x-4" >

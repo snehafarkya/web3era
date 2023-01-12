@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Footer() {
   return (
-<div className='mx-56'>
+<div className='md:mx-56'>
       <footer class="text-center lg:text-left text-gray-100 ">
-  <div class="mx-6 py-10 text-center md:text-left w-xl">
+  <div class="mx-6 py-10 text-center md:text-left ">
     <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <div class="">
         <h6 class="
@@ -29,7 +29,7 @@ export default function Footer() {
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsum assumenda unde voluptates quo! Eligendi
         </p>
       </div>
-      <div class="md:ml-10">
+      <div class="">
         <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start ">
           Products
         </h6>
