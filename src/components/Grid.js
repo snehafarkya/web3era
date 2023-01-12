@@ -15,7 +15,7 @@ export default function Grid() {
               content.
             </p>
         </div>
-        <img src={arrow} alt="" className='w-10 h-10 mt-5' />
+        <img src={arrow} alt="" className='w-10 h-10 mt-5 p-2' />
       </div>
 
       {/* card2 */}
@@ -27,7 +27,7 @@ export default function Grid() {
               content.
             </p>
         </div>
-        <img src={arrow} alt="" className='w-10 h-10 mt-5' />
+        <img src={arrow} alt="" className='w-10 h-10 mt-5 p-2' />
       </div>
       {/* card 3 */}
       <div class="info-card flex justify-center gap-x-4" >
@@ -38,7 +38,7 @@ export default function Grid() {
               content.
             </p>
         </div>
-        <img src={arrow} alt="" className='w-10 h-10 mt-5' />
+        <img src={arrow} alt="" className='w-10 h-10 mt-5 p-2' />
       </div>
       {/* card 4 */}
       <div class="info-card flex justify-center gap-x-4" >
@@ -49,7 +49,7 @@ export default function Grid() {
               content.
             </p>
         </div>
-        <img src={arrow} alt="" className='w-10 h-10 mt-5' />
+        <img src={arrow} alt="" className='w-10 h-10 mt-5 p-2' />
       </div>
     </div>
     </div>

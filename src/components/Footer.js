@@ -34,16 +34,16 @@ export default function Footer() {
           Products
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Angular</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Angular</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">React</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">React</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Vue</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Vue</a>
         </p>
         <p>
-          <a href="#!" class="text-gray-600">Laravel</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Laravel</a>
         </p>
       </div>
       <div class="">
@@ -51,16 +51,16 @@ export default function Footer() {
           Useful links
         </h6>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Pricing</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Pricing</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Settings</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Settings</a>
         </p>
         <p class="mb-4">
-          <a href="#!" class="text-gray-600">Orders</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Orders</a>
         </p>
         <p>
-          <a href="#!" class="text-gray-600">Help</a>
+          <a href="#!" class="text-gray-600 hover:text-gray-300">Help</a>
         </p>
       </div>
       <div class="">

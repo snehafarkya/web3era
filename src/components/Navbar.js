@@ -7,24 +7,24 @@ export default function Navbar() {
 <div className="flex flex-wrap">
   <section className="relative mx-auto">
       {/* <!-- navbar --> */}
-    <nav className="flex justify-center  text-white ">
-      <div className="px-5 xl:px-12 py-6 gap-48 flex w-full items-center">
+    <nav className="flex md:justify-center justify-between text-white ">
+      <div className="px-5 xl:px-12 py-6 md:gap-48 flex w-full items-center">
         <a className="text-3xl font-bold font-heading" href="#">
           {/* <!-- <img className="h-9" src="logo.png" alt="logo"> --> */}
           Web3Era
         </a>
         {/* <!-- Nav Links --> */}
         <ul className="hidden md:flex px-5 mx-auto font-semibold font-heading space-x-12">
-          <li><a className="hover:text-hotpink font-bold" href="#">Home</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">Build</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">Community</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">Wiki</a></li>
+          <li><a className="hover:text-gray-100 font-bold" href="#">Home</a></li>
+          <li><a className="hover:text-gray-100 font-bold" href="#">Build</a></li>
+          <li><a className="hover:text-gray-100 font-bold" href="#">Community</a></li>
+          <li><a className="hover:text-gray-100 font-bold" href="#">Wiki</a></li>
         </ul>
         {/* <!-- Header Icons --> */}
         <div className="hidden xl:flex space-x-5 flex-row">
           {/* <!-- Sign In / Register      --> */}
-          <button className="get-btn text-white flex flex-row gap-x-2 font-bold uppercase text-sm px-6 py-3 rounded-3xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-hotpink" type="button">
-        <a className="flex  hover:text-gray-200"> <Link to="/login">
+          <button className="get-btn text-white flex flex-row gap-x-2 font-bold uppercase text-sm px-6 py-3 rounded-3xl shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 " type="button">
+        <a className="flex hover:text-gray-200"> <Link to="/login">
               </Link>
         </a>Get Started
         </button>
@@ -34,8 +34,8 @@ export default function Navbar() {
       {/* <!-- Responsive navbar --> */}
       <a className="xl:hidden flex mr-6 items-center" href="#">
         <span className="flex absolute -mt-5 ml-4">
-          <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-pink-400 opacity-75"></span>
-          <span className="relative inline-flex rounded-full h-3 w-3 bg-pink-500">
+          <span className="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-gray-400 opacity-75"></span>
+          <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-500">
           </span>
         </span>
       </a>
@@ -50,3 +50,7 @@ export default function Navbar() {
 </div>
   )
 }
+
+
+
+
